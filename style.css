@@ -1,0 +1,218 @@
+/* TOP PAGE HEADER */
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif
+}
+
+.page-header {  
+  background-color: #002D62;
+  width: 100%;
+  height: 130px;
+}
+
+ul {
+  list-style: none;
+  padding: 10px;
+}
+
+li {
+  display: inline;
+  color: #B7B7B4/*#727679*/;
+  margin: 6px;
+}
+
+.header-top {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.user-login {
+  display: inline;
+  margin: 10px 20px;
+  font-size: 85%;
+  color: #B7B7B4;
+}
+
+.icon {
+  width: 12px;
+  height: 12px;
+  margin: 0px 6px;}
+
+.header-bottom {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+}
+
+.head-img {
+  height: 70px;
+  width:140px;
+  margin: 20px;
+  border: 1px solid #1C5774;
+}
+
+/* MAIN ARTICLE BOX */ 
+
+main {
+  background-color: #4B90CD;
+  padding: 8px
+}
+
+h1 {
+  margin: 0;
+  line-height: 100px;
+  text-indent: 4px;
+  color: #424445/*#606466*/;
+}
+
+.content-box {
+  display: inline-block;
+  border: solid #747A7E 2px;
+  margin: 4px 0px 4px 4px;
+  background-color: #F4F4EC;
+  width: 240px;
+  height: 320px;
+}
+
+/* BOX CONTENT */
+
+.box-header {
+  width: 100%;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-img {
+  width: 45px;
+  height: 45px;
+  margin: 10px;
+}
+
+.view-count {
+  text-align: center;
+  margin-right: 10px;
+}
+
+.content-box span {
+  font-size: 180%;
+  line-height: 10px;
+}
+
+h3 {
+  font-size: 60%;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+
+
+h2 {
+  margin: 10px 0px 3px 10px;
+  font-size: 85%;
+
+}
+
+p {
+  font-size: 65%;
+  line-height: 10px;
+  margin: 0px 10px;
+  line-height: 10px; 
+}
+
+a {
+  text-decoration: none;
+  color: #535556;
+  font-size: 65%;
+}
+
+.link-box {
+  margin: 10px;
+  background-color: #DBDEE0;
+  padding: 5px;
+  line-height: 12px;
+}
+
+h4 {
+  font-size: 60%;
+  text-transform: uppercase;
+  margin: 14px 0px 0px 10px;
+
+}
+
+.nickname h2 {
+  margin-top: 2px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.number span {
+  color: #BEBD30;
+  margin: 14px 10px;
+  display: block;
+}
+
+.white {
+  color: #fff;
+}
+ 
+.player-one {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)), 
+  url('images/jokic.jpg');
+}
+
+.player-two {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)),
+  url('images/murray.jpg');
+}
+
+.player-three {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)),
+  url('images/harris.jpg');
+}
+
+.player-four {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)),
+  url('images/millsap.jpg');
+}
+
+.player-five {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)),
+  url('images/barton.jpg');
+}
+
+.player-six {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)),
+  url('images/hernangomez.png');
+}
+
+.player-seven {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)),
+  url('images/lyles.jpg');
+}
+
+.player-eight {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)),
+  url('images/morris.jpg');
+}
