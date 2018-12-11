@@ -6,6 +6,6 @@ This assignment helped solidify my knowledge of implementing CSS rules for posit
 
 ### Screenshots
 I've attached an image of the comp we were asked to replicate:
-![static-comp-1](images/static-comp)
+![static-comp-1](images/static-comp.png)
 Here is a screenshot of what I came up with:
-![static-comp-1](images/nuggets-site)
+![static-comp-1](images/nuggets-site.png)
