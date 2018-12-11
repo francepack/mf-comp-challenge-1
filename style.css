@@ -13,7 +13,6 @@ body {
 
 .page-header {  
   background-color: #002D62;
-  width: 100%;
   height: 130px;
 }
 
@@ -30,6 +29,10 @@ li {
   padding-right: 10px;
 }
 
+.white {
+  color: #F4F4EC;
+}
+
 .header-top {
   display: flex;
   justify-content: flex-end;
@@ -39,6 +42,13 @@ li {
   display: inline;
   margin: 10px 20px;
   font-size: 85%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.user-login a {
   color: #B7B7B4;
 }
 
@@ -58,7 +68,6 @@ li .icon {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  width: 100%;
   height: 100px;
 }
 
@@ -81,7 +90,7 @@ main {
 h1 {
   margin: 0;
   line-height: 100px;
-  text-indent: 8px;
+  text-indent: 4px;
   color: #3A3A37;
   font-family: Noto sans, sans-serif
 }
@@ -93,20 +102,24 @@ h1 {
 }
 
 .content-box {
-  display: inline-block;
-  border: transparent;
-  /*box-shadow: 2px 2px 2px grey;*/
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-margin: 0 1% 1% 0;
-    background-color: #F4F4EC;
-    width: 24%;
+  margin: 0 1% 1% 0;
+  background-color: #F4F4EC;
+  width: 24%;
   height: 400px;
+}
+
+.content-box:nth-child(4) {
+  margin: 0 0 1% 0;
+}
+
+.content-box:nth-child(8) {
+  margin: 0 0 1% 0;
 }
 
 /* BOX CONTENT */
 
 .box-header {
-  width: 100%;
   height: 140px;
   background-size: cover;
   background-position: center;
@@ -118,6 +131,11 @@ margin: 0 1% 1% 0;
   width: 45px;
   height: 45px;
   margin: 10px;
+}
+
+.link-img:hover {
+  transform: rotate(360deg);
+  transition: all .5s ease-in-out 0s;
 }
 
 h3 { 
@@ -140,29 +158,23 @@ h3 {
 .text-box {
   display: flex;
   flex-direction: column;
-  align-content: space-between; 
+  color: #535556;
 }
 
 h2 {
   margin: 16px 0px 3px 16px;
   font-size: 98%;
-  color: #535556;
 }
 
 p {
   font-size: 70%;
   line-height: 10px;
   margin: 0px 16px;
-  color: #535556;
   padding-bottom: 10px;
 }
 
-a {
-  text-decoration: none;
-}
-
 .text-box a {  
-  font-size: 65%;
+  font-size: 85%;
   line-height: 18px;
   color: #535556;
 }
@@ -184,14 +196,12 @@ h4 {
   font-weight: 500;
   text-transform: uppercase;
   margin: 10px 0px 0px 16px;
-  color: #535556;
 }
 
 .nickname h2 {
   margin-top: 2px;
   margin-bottom: 20px;
   font-weight: 600;
-  color: #535556;
 }
 
 .number span {
@@ -200,9 +210,7 @@ h4 {
   display: block;
 }
 
-.white {
-  color: #F4F4EC;
-}
+/* Content box background images */
  
 .player-one {
   background-image: linear-gradient(
@@ -260,10 +268,17 @@ h4 {
   url('images/morris.jpg');
 }
 
+/* Media Queries */
+
 @media screen and (max-width: 850px) {
   .content-box {
-    width: 48%;
-    margin-bottom: 2%;
+    width: 49%;
+  }
+  .content-box:nth-child(even) {
+  margin: 0 0 2% 0;
+  }
+  .content-box:nth-child(odd) {
+    margin: 0 1% 2% 0;
   }
 }
 
@@ -279,13 +294,16 @@ h4 {
 
 @media screen and (max-width: 470px) {
   .content-box {
-    width: 98%;
+    width: 100%;
     margin-bottom: 2%;
+  }
+  main {
+    padding: 4%;
   }
   h1 {
     font-size: 28px;
   }
-  .box-header {
-    background-position: center-bottom;
+  .content-box:nth-child(odd) {
+    margin: 0 0 2% 0;
   }
 }
